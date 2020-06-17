@@ -1,0 +1,188 @@
+body {
+	font-family: 'Lora', sans-serif;
+	
+}
+
+ul, li{
+	display:block;
+	padding:0;
+	margin:0;
+}
+
+h1, h2 {
+	font-weight: 400;
+
+
+}
+h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+p, div, span, a {
+	line-height: 1.5em;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.purple{
+	color: #b9b9dd;
+}
+
+
+/*Первый экран*/
+
+.header {
+	background: #f6ffd4;
+	color: #000;
+	padding-top: 60px;
+	padding-bottom:80px;
+}
+
+.menu{
+}
+
+.menu__item {
+	margin: 0 20px;
+}
+
+.menu__item a {
+	font-size: 26px;
+	font-weight: 400;
+	color: #000;
+
+}
+.mytitle {
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+
+}
+
+.offer{
+margin-top: 100px;
+}
+
+
+.icons__item {
+	margin-right: 30px;
+}
+
+.icons__item a {
+	color: #000;
+	font-size: 30px;
+	transition: all 1s ease;
+}
+
+
+.icons__item a:hover {
+	text-decoration: none;
+	color: #f7ad47;
+}
+
+.offer__intro{
+	font-size: 20px;
+	color: #191919;
+	font-weight: 300;
+}
+.offer__text{
+	font-size: 20px;
+	margin-bottom: 40px;
+	color: #191919;
+	font-weight: 300;
+}
+.offer__title{
+	margin-bottom:20px;
+	}
+
+.logo{
+	display: block;
+	margin: 60px auto;
+}
+
+.title{
+	padding-top:100px;
+	padding-bottom: 80px;
+	font-size:40px;
+	text-align: center;
+}
+
+.title__main{
+	font-size: 30px;
+}
+
+.title__text{
+	font-size: 20px;
+	font-weight: 300;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* второй экран */
+
+.feature{
+	margin-bottom: 70px;
+}
+
+.feature__icon{
+	font-size: 50px;
+	margin-right: 37px;
+	color: #000;
+}
+
+.feature__text {
+	color: #000;
+}
+
+
+/*Третий экран */
+
+.touch{
+	background: #ffcb57;
+	color: black;
+}
+
+.form{
+	text-align:center;
+}
+
+.form__input{
+	background: #white;
+	font-size:20px;
+	font-family: 'Quicksand', sans-serif;
+	width: 600px;
+	padding: 10px 0;
+	border:0;
+	margin-right: 20px;
+	padding-left:20px;
+	border-radius:10px;
+	outline:none;
+}
+
+.form__btn{
+	background: #e1e0de	;
+	font-size:20px;
+	font-family: 'Quicksand', sans-serif;
+	width: 150px;
+	border:0;
+	padding: 10px 0;
+	cursor:pointer;
+	border-radius:10px;
+	outline:none;
+}
+
+
+/* footer */
+
+.footer{
+	background: #ffcb57;
+	padding: 30px 100px;
+}
+.credits{
+	color:black;
+	font-size: 16px;
+	text-align:center;
+	padding-top: 50px;
+	width: 150px;
+	margin:0 auto;
+}

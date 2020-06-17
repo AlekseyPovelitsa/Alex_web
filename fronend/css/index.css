@@ -1,0 +1,105 @@
+/*Page Authorization*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+main {
+    background: rgb(133,177,15);
+    background: linear-gradient(225deg, rgba(133,177,15,0.6361111111111111) 46%, rgba(212,202,41,1) 62%, rgba(215,186,33,1) 75%, rgba(210,178,43,1) 81%);
+    height: 100vh;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+#successful {
+    display: none;
+    font-size: 16px;
+    color: #a5ff9b;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+li {
+    display: inline-block;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap-auth {
+    position: absolute;
+    top: 25vh;
+    /*left: 25vh;*/
+    padding: 45px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.wrap-auth h1 {
+    margin-bottom: 20px;
+}
+
+.wrap-data {
+    margin-bottom: 20px;
+}
+
+.wrap-data input {
+    padding: 5px;
+}
+
+#btn-register, #btn-login {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn-login:hover {
+    background-color: #c4ff4c;
+    transition: background-color .7s;
+}
+
+#btn-register:hover {
+    background-color: #c4ff4c;
+    transition: background-color .7s;
+}
+
+.wrap-auth a {
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #ffe88b;
+    padding: 5px 7px;
+    border-radius: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.link-page {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.link-page a {
+    padding: 5px 7px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
