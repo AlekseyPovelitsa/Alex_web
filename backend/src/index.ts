@@ -16,7 +16,6 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     next()
 });
-
 app.use("/", router);
 
 app.listen("3030", function () {
